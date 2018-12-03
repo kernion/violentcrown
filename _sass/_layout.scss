@@ -116,6 +116,9 @@ nav {
 
     h1 {
       margin: 0;
+      padding-top: 50px; /* stretch crown a bit, shift text down a bit */
+      text-align: center;
+      z-index: -1;   
     }
 
     /*
@@ -131,7 +134,25 @@ nav {
 }
 
 header {
-  background: $block-background;
+  background-color: $block-background;
+  position: relative;
+}
+
+header:after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: 1;   
+
+  background-image: url("/images/crown.svg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  opacity: 0.1;
+  filter: alpha(opacity=10); /* For IE8 and earlier */
 }
 
 /*****************************************************************************/
