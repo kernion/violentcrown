@@ -3,18 +3,16 @@
 ---
 @charset "utf-8";
 
-
-
 // Our variables
 $base-font-family:  sans-serif;
 $base-font-size:    24px;
 $base-line-height:  1.5;
 $link-hover:        rgba(210, 23, 23, 0.7);
 $spacing-unit:      1.5em;
-$blue:              rgba(25, 117, 229, 0.3);
-$yellow:            rgba(255, 244, 43, 0.5);
-$green:             rgba(138, 219, 79, 0.3);
 $body-background:   #f2f2f2;
+
+$block-background:  #e5ccff;
+$title-color:       #3e0080;
 
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
@@ -22,3 +20,7 @@ $body-background:   #f2f2f2;
         "layout",
         "syntax-highlighting"
 ;
+
+a:hover {
+    text-decoration: underline;
+}

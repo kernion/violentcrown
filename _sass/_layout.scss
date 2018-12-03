@@ -1,14 +1,17 @@
 .color1 {
-    background: $blue;
+    background: $block-background;
 }
 .color2 {
-    background: $yellow;
+    background: $block-background;
 }
 .color3 {
-    background: white;
+    background: #f2e6ff;
 }
 .color4 {
-    background: $green;
+    background: $block-background;
+}
+.title {
+  color: $title-color;
 }
 
 
@@ -47,11 +50,19 @@ p {
     }
 }
 
+h1, h2, h3, h4, h5 {
+  color: $title-color;
+}
+a {
+  color: inherit;
+}
+
 .main-content {
   width: 65%;
   float:right;
   padding:0;
 
+  /*
   a {
     color: #d21717;
     &:hover,
@@ -59,6 +70,7 @@ p {
       color: #E40000;
     }
   }
+  */
   .module {
     margin-left: 0;
   }
@@ -106,6 +118,7 @@ nav {
       margin: 0;
     }
 
+    /*
     a {
       color: #000;
       font-weight: normal;
@@ -114,10 +127,11 @@ nav {
         color: #000;
       }
     }
+    */
 }
 
 header {
-  background: $blue;
+  background: $block-background;
 }
 
 /*****************************************************************************/
@@ -142,7 +156,7 @@ article {
 }
 
 time {
-    color: #ccc;
+    color: #aaa;
     position: absolute;
     top: 0.75em;
     right: 0.75em;
