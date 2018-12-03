@@ -1,8 +1,9 @@
 # Site settings
 title:        "Violent Crown"
 description:  "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolor"
-baseurl:      "" # the subpath of your site, e.g. /blog/
+baseurl:      "/vionentcrown" # the subpath of your site, e.g. /blog/
 url:          "" # "http://yourdomain.com" # the base hostname & protocol for your site
+destination:  "docs"
 permalink:    /:year/:title
 github:       "kernion"
 twitter:      "jettek"
