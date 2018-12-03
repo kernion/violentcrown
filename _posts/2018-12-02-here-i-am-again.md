@@ -15,12 +15,16 @@ C. nods and looks at me for a moment and goes completely off the rails with, "Yo
 
 My theory is not that my dinnertime anecdotes are so sparklingly witty that my spouse feels I should share them with the world, but rather that C. thinks if I blog about them, then perhaps we can talk about other things at dinner, like classical guitar or our adorable cat ... or the topic that followed, which was How We Should Blog These Days. I use Medium and WordPress at work, but a) it would be good to own my writing by hosting it on my own website, and b) a CMS requires regular care and feeding or it becomes vulnerable to security problems.
 
-So we had an extended discussion involving GitHub Pages, Markdown, using Jekyll in Windows with help from Docker (the last time I tried messing with this, Docker was not really a thing), and I know at this point some of you are begging me to please tell you what movie I watched at the gym with the stellar costume design and cut it out with the tech jargon. I confess it started to sound really complicated to me when all I really wanted to do was write some damn thing and push a button. Maybe I should just start a secret Medium blog and then move everything over once we figured out all of these GitHub Pages shenanigans. But C. worked like mad to get it all to work beautifully, as you can see.
+So we had an extended discussion involving GitHub Pages, Markdown, using Jekyll in Windows with help from Docker (the last time I tried messing with this, Docker was not really a thing), and I know at this point some of you are begging me to please tell you what movie I watched at the gym with the stellar costume design and cut it out with the tech jargon. I confess it started to sound really complicated to me when all I wanted to do was write some damn thing and push a button. Maybe I should just start a secret Medium blog and then move everything over once we figured out all of these GitHub Pages shenanigans, I thought briefly. But C. worked like mad to get it all to work beautifully, as you can see.
 
 The point is, here I am blogging and I already have three stories to tell and one of them might appeal to you:
--- How we got this blog set up and published
--- Watching parts of movies with the sound off at the gym and the fascinating visual things I notice
-"Pull a Boner Syndrome," a name I have invented myself and which belongs to me, and which is going to do horrible things to my SEO
-Oh yeah, and the other topic that C. says I should definitely write about, which is the movie I believe should be this year's movie awards contender. (Please do not guess until I've written about it. It's not the one with Jason Isaacs taking off his coat, either, although hey, now I have a fourth topic. Of course I can write an entire blog post about Jason Isaacs taking off his coat in five seconds of one movie. Watch me.)
+
+- How we got this blog set up and published
+
+- Watching parts of movies with the sound off at the gym and the fascinating visual things I notice
+
+- "Pull a Boner Syndrome," a name I have invented myself and which belongs to me, and which is going to do horrible things to my SEO
+
+- Oh yeah, and the other topic that C. says I should definitely write about, which is the movie I believe should be this year's movie awards contender. (Please do not guess until I've written about it. It's not the one with Jason Isaacs taking off his coat, either, although hey, now I have a fourth topic. *Of course* I can write an entire blog post about Jason Isaacs taking off his coat in five seconds of one movie. Watch me.)
 
 I don't really know where I'm going with this, but hopefully if I publish a to-do list like the one above, I'll actually follow through.
