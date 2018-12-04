@@ -2,7 +2,7 @@
 layout: default
 ---
 
-{% for post in site.posts limit:1 %}
+{% for post in site.posts limit:5 %}
   <article class="module color3">
     <h2>
       <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
@@ -12,15 +12,6 @@ layout: default
       {{ post.content | strip_html | truncate: 250 }}
     </p>
   </article>
-{% endfor %}
-
-{% for post in site.posts offset:1 limit:4 %}
-  <article class="module color3">
-    <h2>
-      <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-    </h2>
-    <time>{{ post.date| date: "%m/%d/%Y" }}</time>
-</article>
 {% endfor %}
 
 <section class="module color3">
