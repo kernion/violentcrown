@@ -3,7 +3,7 @@ layout: default
 ---
 
 {% for post in site.posts limit:5 %}
-  <article class="module color3">
+  <article class="module background-article">
     <h2>
       <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
     </h2>
@@ -14,6 +14,6 @@ layout: default
   </article>
 {% endfor %}
 
-<section class="module color3">
+<section class="module background-article">
   <a href="{{ 'archives' | prepend: site.baseurl }}">More Posts &rarr;</a>
 </section>
