@@ -3,12 +3,8 @@ title:        "Violent Crown"
 description:  "City of excessive heat, with thy violet crown, beloved of the hipsters and grouches, thou art the renegades of Texas."
 baseurl:      "" # the subpath of your site, e.g. /blog/
 url:          "" # "http://yourdomain.com" # the base hostname & protocol for your site
-#destination:  "docs"
 permalink:    /:year/:title
-github:       "kernion"
-twitter:      "jettek"
-email:        "" 
-disqus-id:    "" #leave blank if you dont want comments.
+disqus-id:    "" # leave blank if you dont want comments.
 
 # Build settings
 markdown:     kramdown
