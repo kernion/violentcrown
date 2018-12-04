@@ -9,11 +9,13 @@ $base-font-size:    18px;
 $base-line-height:  1.2;
 $link-hover:        rgba(210, 23, 23, 0.7);
 $spacing-unit:      1.2em;
-$body-background:   #f2f2f2;
 
-$block-background:  #e5ccff;
-$title-color:       #3e0080;
-$lighter-text-color: #999;
+$background-body:   #f2f2f2;
+$background-block:  #e5ccff;
+$background-article: #f2e6ff;
+
+$color-title:       #3e0080;
+$color-light-text:  #999;
 
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import

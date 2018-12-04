@@ -1,17 +1,14 @@
-.color1 {
-    background: $block-background;
+/*****************************************************************************/
+ *
+ * Colors
+ *
+ *****************************************************************************/
+
+.background-block {
+    background: $background-block;
 }
-.color2 {
-    background: $block-background;
-}
-.color3 {
-    background: #f2e6ff;
-}
-.color4 {
-    background: $block-background;
-}
-.title {
-  color: $title-color;
+.background-article {
+    background: $background-article;
 }
 
 
@@ -25,7 +22,7 @@ body {
     margin: 0;
     font-family: $base-font-family;
     font-size: $base-font-size;
-    background: $body-background;
+    background: $background-body;
 }
 a {
     text-decoration: none;
@@ -51,7 +48,7 @@ p {
 }
 
 h1, h2, h3, h4, h5 {
-  color: $title-color;
+  color: $color-title;
 }
 a {
   color: inherit;
@@ -134,7 +131,7 @@ nav {
 }
 
 header {
-  background-color: $block-background;
+  background-color: $background-block;
   position: relative;
 }
 
@@ -163,7 +160,7 @@ header:after {
 
 footer {
   font-size: 0.75 * $base-font-size;
-  color: $lighter-text-color;
+  color: $color-light-text;
 }
 
 /*****************************************************************************/
@@ -188,7 +185,7 @@ article {
 }
 
 time {
-    color: $lighter-text-color;
+    color: $color-light-text;
     position: absolute;
     top: 0.75em;
     right: 0.75em;
