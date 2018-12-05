@@ -11,9 +11,11 @@ layout: default
     <p>
       {{ post.content | strip_html | truncate: 250 }}
     </p>
+    <a href="{{ post.url | prepend: site.baseurl }}">Read more &rarr;</a>
+
   </article>
 {% endfor %}
 
 <section class="module background-article">
-  <a href="{{ 'archives' | prepend: site.baseurl }}">More Posts &rarr;</a>
+  <a href="{{ 'archives' | prepend: site.baseurl }}">More posts &rarr;</a>
 </section>
